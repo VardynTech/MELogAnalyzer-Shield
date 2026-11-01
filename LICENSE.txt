@@ -1,0 +1,36 @@
+MELogAnalyzer Shield by VardynTech - Freeware Licence
+Copyright (c) 2026 VardynTech. All rights reserved.
+
+1. Grant. You may download, install and use this program free of charge, for
+   personal, business and commercial purposes, on any number of servers you
+   own or administer.
+
+2. Redistribution. You may share the unmodified download (the zip from the
+   official releases page) with others, free of charge, provided this licence
+   and the copyright notice stay with it. You may not sell it, or include it in
+   a commercial product or paid bundle, without written permission.
+
+3. Restrictions. You may not modify the program, decompile or reverse engineer
+   it (except where the law allows this despite this restriction), remove its
+   copyright, trademark or about notices, or present it as your own work.
+
+4. No source. The source code is not published and no rights to it are
+   granted.
+
+5. Third-party names. MailEnable, Windows, AbuseIPDB and all other product
+   names are trademarks or copyrights of their respective companies. This
+   program is independent and is not made, supported or endorsed by them.
+   Use of AbuseIPDB is subject to AbuseIPDB's own terms and your own API key.
+
+6. No warranty. The program is provided "as is", without warranty of any kind,
+   express or implied, including fitness for a particular purpose. It changes
+   Windows Firewall rules; you are responsible for reviewing what it blocks.
+   Use the dry run and test on your own system first.
+
+7. Limitation of liability. To the extent the law allows, VardynTech is not
+   liable for any loss or damage arising from the use of, or inability to use,
+   the program, including blocked mail, lost connections or missed attacks.
+
+8. Termination. This licence ends automatically if you break its terms.
+
+Contact: https://vardyntech.com
