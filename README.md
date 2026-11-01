@@ -36,6 +36,7 @@ Free for everyone running MailEnable. No licence key, no install, no cloud accou
 | Blocked | What is blocked, why and when; unblock, unblock + whitelist, export |
 | Blocked attempts | Connection attempts Windows Firewall dropped from blocked addresses |
 | Blocked HELO | The HELO names used by blocked IPs, to spot what they have in common |
+| Log search | Find any text (a HELO name, account, domain, IP) in the raw log lines, flagged or not; block IPs from the results, export |
 | Trend | Failed logins per hour or per day, per account |
 | Reports | Six ready-made reports with charts, export and email |
 

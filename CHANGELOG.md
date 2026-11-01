@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.1
+
+- New **Log search** tab: find any text (HELO name, account, domain, IP) in the raw SMTP / POP / IMAP log lines, whether or not they are failed logins. Optional regex, Debug logs and all-services search; block the IPs of selected results or export them.
+- Reports: "VardynTech" in the report header is now a link; exported and emailed single reports no longer carry a number in the title.
+- Blocked tab details show country and AbuseIPDB score for POP / IMAP / SMTP entries.
+- Trend tab no longer selects the first row by default.
+- Reports tab scrolls back to the top when you switch reports.
+- Block-effectiveness chart sorted by dropped count.
+
 ## v1.0 - first public release
 
 First public release.
