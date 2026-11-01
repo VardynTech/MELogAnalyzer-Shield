@@ -54,7 +54,7 @@ Free for everyone running MailEnable. No licence key, no install, no cloud accou
 
 ## Requirements
 
-- Windows Server 2008 / Vista or later for firewall rules (on older Windows it still reads logs and exports lists, but cannot add rules).
+- Windows Server 2008 / Vista or later for firewall rules (on older Windows it still reads logs and exports lists, but cannot add rules). Tested on Windows Server 2008 R2 and 2012, including blocking, the background task and email reports.
 - .NET Framework 4.0 or later, which is built into Windows Server 2008 R2 and later.
 - Read access to the MailEnable log folder, and administrator rights for blocking.
 - IPv4 only.

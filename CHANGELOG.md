@@ -24,5 +24,5 @@ Unzip to a permanent folder on your mail server and run it as administrator.
 - Not published as source. See LICENSE.txt.
 
 ## Known limitations
-- Tested on MailEnable logs from Windows Server 2008 R2. Please report anything unusual in the log wording of other versions.
+- Tested on Windows Server 2008 R2 and 2012 (log reading, firewall blocking, background task and email reports). Please report anything unusual in the log wording of other MailEnable versions.
 - The background task cannot queue home-country proposals for review; those wait until you open the program.
