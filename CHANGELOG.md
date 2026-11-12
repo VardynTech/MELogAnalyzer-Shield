@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.3
+
+- New **Spray report** (By account tab): is it a distributed spray, which real accounts are hit, can they reach the lockout count, did any attacking IP log in successfully.
+- **IP lookup** accepts wildcard ranges: `47.236.*.*` (/16), `47.236.1.*` (/24), `47.*.*.*` or `47.236`. A range shows totals and the busiest addresses from your logs and every log line in it; **Block this IP** blocks the whole range. AbuseIPDB and DNS blocklists stay per address.
+- **Log search** matches IP patterns such as `47.236.*.*` against whole addresses only (never inside `147.236.1.1`).
+
 ## v1.2
 
 - New **IP lookup** tab: type one IP and see, side by side, AbuseIPDB's details (confidence, reports, last report, ISP, usage type, Tor, recent reports; uses your API key), free DNS blocklist results (Spamhaus ZEN, SpamCop, UCEPROTECT-1, DroneBL, PSBL) with reverse DNS, and what your own SMTP / POP / IMAP logs say about it, plus every log line of that IP. Block or whitelist it from the tab. Stop button, and an **Open in AbuseIPDB** button that needs no key.

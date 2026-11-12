@@ -20,6 +20,8 @@ Free for everyone running MailEnable. No licence key, no install, no cloud accou
 - **Catches slow attackers.** A reputation rule blocks an IP whose AbuseIPDB score is high even when its failures are hours apart.
 - **Finds anything in the logs.** The Log search tab looks for any text (a HELO name, account, domain, IP) in the raw logs, flagged or not, and shows the whole session of the IP you select. Search the recent days, every day that has a log file, or one chosen day from a list of the log days that really exist on the server. SMTP rows get a **Result** (EHLO refused, Login failed, Rejected...) and a Time column, and **Only EHLO refused** lists every connection your MailEnable *EHLO strings to block* list refused, with the EHLO name used and the entry that caught it.
 - **Looks up any IP.** The IP lookup tab shows AbuseIPDB's details (with your free key, or open the AbuseIPDB page in your browser without one), free DNS blocklist results (Spamhaus, SpamCop, UCEPROTECT, DroneBL, PSBL) with reverse DNS, and everything your own SMTP, POP and IMAP logs say about it. Blocklist status also appears in the details of the IP you select on the Attackers tab.
+- **Spray report.** On the By account tab: shows whether the failures are a distributed spray (many IPs, one or two tries each), which real accounts are hit, whether they can reach the lockout count, and whether any attacking IP also logged in successfully.
+- **IP ranges with wildcards.** Type `47.236.*.*`, `47.236.1.*` or `47.236` in IP lookup to see a whole range at once (totals, busiest addresses, every log line) and block the range in one go.
 - **Makes the most of MailEnable's HELO block box.** The block-list helper checks a wildcard pattern before you add it, cleans duplicates out of your current list and suggests the patterns that cover the most attackers within the box's length limit.
 - **Keeps working when you log off.** One button installs a background task (every 5 minutes) that applies your auto-block rules.
 - **Shows that blocks work.** The Blocked tab shows whether a blocked address still reached MailEnable, and how many attempts Windows Firewall dropped (needs the firewall's drop log, which Shield can switch on for you).
@@ -32,7 +34,7 @@ Free for everyone running MailEnable. No licence key, no install, no cloud accou
 | Tab | What it is for |
 |---|---|
 | Attackers (by IP) | Every IP with failed logins, details, AbuseIPDB score, block / whitelist |
-| By account | Pick a targeted account, see and block every IP that attacked it |
+| By account | Pick a targeted account, see and block every IP that attacked it; **Spray report** |
 | By range (/24) & history | Ranges that keep coming back day after day |
 | Temp-denied by MailEnable | IPs MailEnable itself already refused |
 | Auto-block queue | Proposals waiting for your OK |
@@ -40,7 +42,7 @@ Free for everyone running MailEnable. No licence key, no install, no cloud accou
 | Blocked attempts | Connection attempts Windows Firewall dropped from blocked addresses |
 | Blocked HELO | The HELO names used by blocked IPs, to spot what they have in common; **Block-list helper** to build a MailEnable EHLO block list that fits |
 | Log search | Find any text (a HELO name, account, domain, IP) in the raw log lines, flagged or not, with a Result and Time column; **Only EHLO refused** lists the connections your EHLO block list refused; block IPs from the results, export |
-| IP lookup | One IP: AbuseIPDB details, DNS blocklists, reverse DNS and every log line of that IP; block or whitelist it |
+| IP lookup | One IP, or a range such as `47.236.*.*`: AbuseIPDB details, DNS blocklists, reverse DNS and every log line; block or whitelist it |
 | Trend | Failed logins per hour or per day, per account |
 | Reports | Six ready-made reports with charts, export and email |
 
