@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.4
+
+- New **Filter report** tab: reads MailEnable's MTA filter logs (MTAFILTER-Report-*.log) and shows what your filters rejected: by filter, by sender IP, by sender and by subject, with counts. Pick the recent days, every available day or one day, search with wildcards, and select a row for the details (who sent what to whom, why it was rejected, and for an IP its AbuseIPDB score and DNS blocklist results). The IPs involved are listed so you can copy or block them. Shows the reputation of the busiest IPs automatically.
+- **Right-click menu** on every list of IPs or ranges: IP lookup of the row, Block, Whitelist, Copy.
+- **Blocked attempts** tab: states the period the Windows Firewall log covers, because the log only keeps what fits its size limit (so the first attempt can be later than the date a block was added).
+- The Country fence button is hidden for now.
+
 ## v1.3
 
 - New **Spray report** (By account tab): is it a distributed spray, which real accounts are hit, can they reach the lockout count, did any attacking IP log in successfully.

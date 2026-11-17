@@ -43,6 +43,7 @@ Free for everyone running MailEnable. No licence key, no install, no cloud accou
 | Blocked HELO | The HELO names used by blocked IPs, to spot what they have in common; **Block-list helper** to build a MailEnable EHLO block list that fits |
 | Log search | Find any text (a HELO name, account, domain, IP) in the raw log lines, flagged or not, with a Result and Time column; **Only EHLO refused** lists the connections your EHLO block list refused; block IPs from the results, export |
 | IP lookup | One IP, or a range such as `47.236.*.*`: AbuseIPDB details, DNS blocklists, reverse DNS and every log line; block or whitelist it |
+| Filter report | What MailEnable's MTA filters rejected, by filter, sender IP, sender and subject, with IP reputation; right-click to look up or block |
 | Trend | Failed logins per hour or per day, per account |
 | Reports | Six ready-made reports with charts, export and email |
 
